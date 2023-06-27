@@ -1,99 +1,80 @@
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-  font-family: Impact;
+--color_0: 255,255,255;
+    --color_44: 255,255,255;
+    --color_22: 156,156,172;
+    --color_1: 12,12,13;
+    --color_2: 55,50,46;
+    --color_3: 25,25,30;
+    --color_4: 247,247,247;
+    --color_5: 167,153,146;
+    --color_6: 255,255,255;
+    --color_7: 192,192,197;
+    --color_8: 129,129,139;
+    --color_23: 108,108,129;
+    --color_9: 70,70,76;
+    --color_10: 12,12,13;
+    --color_11: 255,255,255;
+    --color_12: 247,247,247;
+    --color_13: 134,134,134;
+    --color_14: 25,25,30;
+    --color_15: 12,12,13;
+    --color_16: 193,186,181;
+    --color_17: 129,117,108;
+    --color_18: 12,12,13;
+    --color_24: 66,66,80;
+    --color_19: 37,33,31;
+    --color_20: 18,17,15;
+    --color_25: 25,25,30;
+    --color_26: 251,251,251;
+    --color_27: 247,247,247;
+    --color_28: 185,185,185;
+    --color_29: 124,124,124;
+    --color_30: 62,62,62;
+    --color_31: 211,204,201;
+    --color_32: 167,153,146;
+    --color_33: 130,113,105;
+    --color_34: 87,75,70;
+    --color_35: 43,38,35;
+    --color_36: 255,255,255;
+    --color_37: 12,12,13;
+    --color_38: 247,247,247;
+    --color_39: 134,134,134;
+    --color_40: 25,25,30;
+    --font_0: normal normal normal 88px/1.2em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --color_45: 12,12,13;
+    --color_41: 167,153,146;
+    --color_46: 12,12,13;
+    --color_47: 25,25,30;
+    --color_48: 12,12,13;
+    --color_49: 12,12,13;
+    --color_50: 255,255,255;
+    --color_51: 255,255,255;
+Show All Properties (37 more)
 }
-body{
-  font-family: montserrat;
+:root {
+    --cookie-banner-primary-color: #fff;
+    --cookie-banner-secondary-color: #000;
+    --cookie-banner-font-family: HelveticaNeue,Helvetica Neue,helvetica,Sans-Serif;
+    --cookie-banner-font-size: 14px;
 }
-nav{
-  background: #0082e6;
-  height: 80px;
-  width: 100%;
+body, html {
+    height: 100%;
 }
-label.logo{
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
+body, html {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
 }
-nav ul{
-  float: right;
-  margin-right: 20px;
+html[Attributes Style] {
+    -webkit-locale: "en";
 }
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
+user agent stylesheet
+:root {
+    view-transition-name: root;
 }
-nav ul li a{
-  color: white;
-  font-size: 17px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-a.active,a:hover{
-  background: #1b9bff;
-  transition: .5s;
-}
-.checkbtn{
-  font-size: 30px;
-  color: white;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-#check{
-  display: none;
-}
-@media (max-width: 952px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-  nav ul li a{
-    font-size: 16px;
-  }
-}
-@media (max-width: 858px){
-  .checkbtn{
+user agent stylesheet
+html {
     display: block;
-  }
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-  }
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-  nav ul li a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-  #check:checked ~ ul{
-    left: 0;
-  }
-}
-section{
-  background: url(bg1.jpg) no-repeat;
-  background-size: cover;
-  height: calc(100vh - 80px);
 }
