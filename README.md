@@ -1,5 +1,5 @@
 # Projects
-## you can find some of my projects here on github!
+## you can find some of my projects right here on github!
 ### here are some examples:
 #### Unbounded
 #### Unbounded 3d
