@@ -5,7 +5,7 @@
 #### Unbounded 3d
 #### Game Creator
 #### wheels
-#### lovr rendering engine
+#### OpenGL rendering engine
 #### fun flying
 #### Perlin noise terrain gen
 #### Minecraft in python
