@@ -5,7 +5,7 @@
 #### Unbounded 3d
 #### Game Creator
 #### wheels
-#### OpenGL rendering engine
+#### OpenGL rendering engine https://github.com/RunawayReptile/PyOpenGL
 #### fun flying
 #### Perlin noise terrain gen
 #### Minecraft in python
